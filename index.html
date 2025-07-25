@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Design</title>
+    <link rel = "stylesheet" href ="style.css">
+</head>
+<body>
+   <!--Header and Navigation-->
+   <header>
+    <div class = "container header-container">
+        <h1 class = "logo"> My Dev Space</h1>
+        <nav>
+            <ul class = "nav-list">
+                <li><a href = "#home">Home</a></li>
+                <li><a href = "#blog">Blog</a></li>
+                <li><a href = "#contact">Contact</a></li>
+                <li><a href = "#about">About</a></li>
+            </ul>
+        </nav>
+    </div>
+   </header> 
+
+<!--hero section-->
+   <section id = "home" class = "hero">
+        <div class = "container">
+            <h2>Welcome to My Developer Playground</h2>
+            <p>Clean code. Semantic HTML5. Beautifully Responsive.</p>
+        </div>
+   </section>
+<!--main content Area-->
+   <main class = "container main-content">
+    <!--article-->
+    <article id = "blog">
+        <h2>Why Semantic HTML5 Matters</h2>
+        <img src="https://lh3.googleusercontent.com/pw/ADCreHcJqgNd7-sXoYY5nCt9qgvEEFaLxbStb3fqEy6i-nwCOsyrCyWDxPYYhSxRROzz3V2AnZhZ8j9c_aNceGhvuJ9GH2zkABSwW_LiRMuyKzNsJG-yMJ4=w800-h400" alt="Google Photo Example" class="featured-image" />
+        <p> Semantic HTML5 improves accessibility, SEO, and readability. It makes your content easier for search engines
+        and screen readers to understand. Tags like <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>,
+        <code>&lt;section&gt;</code> aren't just fancy — they're powerful tools for structure.
+        </p>
+        <p>
+        With Flexbox and responsive media queries, you can make your layouts adapt to any device — from big screens to
+        mobile phones — keeping the UX sharp and clean.
+        </p>
+    </article>
+
+    <!--side bar-->
+    <aside>
+        <section class = "widget">
+        <h3>Developer's quote</h3>
+        <blockquote>
+            “Programs must be written for people to read, and only incidentally for machines to execute.” - Harold Abelson
+        </blockquote>
+    </section>
+
+    <section class = "widget">
+        <h3>Categories</h3>
+        <ul>
+            <li><a href = "#">HTML5 & SEO</a></li>
+            <li><a href = "#"> CSS & Flexbox</a></li>
+            <li><a href = "#">JavaScript</a></li>
+            <li><a href = "#">Projects</a></li>
+        </ul>
+    </section>
+    <section class = "widget">
+        <h3>Newsletter</h3>
+        <form>
+            <input type = "email" placeholder = "Your email" required/>
+            <button type = "submit">Subscribe</button>
+        </form>
+    </section>
+    </aside>
+   </main>
+
+   <!--Contact Section-->
+   <section id = "contact" class = "contact-section">
+        <div class = "container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for = "name">Name</label>
+                <input type = "text" id = "name" required />
+
+                <label for = "email">Email</label>
+                <input type = "email" id = "email" required/>
+
+                <label for ="message" >Message</label>
+                <textarea id = "message" row = "5" required></textarea><br>
+
+                <button type = "submit">Send Message</button>
+            </form>
+        </div>
+   </section>
+
+   <!--Footer-->
+   <Footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 My Dev Space. Crafted with semantic code.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="GitHub">🐙</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="LinkedIn">💼</a>
+      </div>
+    </div>
+   </Footer>
+</body>
+</html>
